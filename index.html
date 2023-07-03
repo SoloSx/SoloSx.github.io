@@ -8,16 +8,20 @@
         <title>--No Vanity--</title>
         <style>
             body {
-                background-color: #CCCCCC; /* グレーの背景色 */
+                background-color: #333333; /* グレーの背景色 */
+                margin: 0; /* 余白を削除 */
+                height: 100vh; /* ビューポートの高さいっぱいに設定 */
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         
             .dot {
-                display: inline-block;
                 width: 10px;
                 height: 10px;
                 background-color: #000000; /* ドットの色 */
                 border-radius: 50%; /* ドットを丸くする */
-                margin: 5px; /* ドットの間隔 */
+                margin: 7px; /* ドットの間隔 */
             }
         
             .dot.large {
@@ -29,18 +33,16 @@
 
 
     <body>
-        <div>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot large"></span> <!-- 大きなドット -->
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
+        <!-- ドットを動的に生成 -->
+        <script>
+            var dotContainer = document.body;
+
+            for (var i = 0; i < 1000; i++) {
+                var dot = document.createElement('span');
+                dot.classList.add('dot');
+                dotContainer.appendChild(dot);
+            }
+        </script>
         <h1>hello world</h1>
     </body>
 </html>
-
-
-
