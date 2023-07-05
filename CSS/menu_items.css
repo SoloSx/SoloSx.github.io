@@ -1,0 +1,16 @@
+.menu_items ul.select_titles {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu_items ul.select_titles li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.menu_items ul.select_titles a {
+  color: white;
+  text-decoration: none;
+}
