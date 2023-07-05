@@ -1,3 +1,10 @@
+header {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  padding: 10px 10px; 
+  z-index: 100; 
+
 .menu_items ul.select_titles {
   list-style: none;
   padding: 0;
@@ -14,5 +21,3 @@
   color: white;
   text-decoration: none;
 }
-
-/* layout change　*/
