@@ -6,43 +6,18 @@
         <meta name="description" content="" />
         <meta name="Thistle" content="" />
         <title>--No Vanity--</title>
-        <style>
-            body {
-                background-color: #333333; /* グレーの背景色 */
-                margin: 0; /* 余白を削除 */
-                height: 100vh; /* ビューポートの高さいっぱいに設定 */
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-        
-            .dot {
-                width: 10px;
-                height: 10px;
-                background-color: #000000; /* ドットの色 */
-                border-radius: 50%; /* ドットを丸くする */
-                margin: 7px; /* ドットの間隔 */
-            }
-        
-            .dot.large {
-                width: 20px; /* 大きなドットの幅 */
-                height: 20px; /* 大きなドットの高さ */
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="css/header.css"> 
     </head>
-
-
+    
     <body>
-        <!-- ドットを動的に生成 -->
-        <script>
-            var dotContainer = document.body;
-
-            for (var i = 0; i < 1000; i++) {
-                var dot = document.createElement('span');
-                dot.classList.add('dot');
-                dotContainer.appendChild(dot);
-            }
-        </script>
-        <h1>hello world</h1>
+        <div id="header">
+            <h1 class="site-title">
+                "Hello World "
+            </h1>
+            
+            <p class = "title_discription">  
+                "This is a test site for my portfolio."
+            </p>
+        </div>
     </body>
 </html>
