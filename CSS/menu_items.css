@@ -1,0 +1,25 @@
+  .menu_items h1.site-title {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .menu_items p.title_discription {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  .menu_items ul.select_titles {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu_items ul.select_titles li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu_items ul.select_titles a {
+    color: black;
+    text-decoration: none;
+  }
+  
