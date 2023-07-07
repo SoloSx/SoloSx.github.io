@@ -8,20 +8,21 @@
         <title>--No Vanity--</title>
         <link rel="stylesheet" type="text/css" href="css/header.css">
         <link rel="stylesheet" type="text/css" href="CSS/menu_items.css">
+        <link rel="stylesheet" type="text/css" href="CSS/body.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     </head>
 
-    
     <body>
-        <header>
-            <div class="menu_items">
-                <ul class="select_titles">
-                    <li class="item"><a class="link" href="/HTML_section/study.html">Major</a></li>   
-                    <li class="item"><a class="link" href="/HTML_section/self_work">Intern & Portfolio</a></li>  
-                    <li class="item"><a class="link" href="/HTML_section/dev-experience.html">Dev-Experience</a></li>  
-                    <li class="item"><a class="link" href="/HTML_section/profile">Profile</a></li>
-                </ul>
-            </div>
-        </header>
+    <header>
+        <div class="menu_items">
+            <ul class="select_titles">
+                <li class="item"><a class="link" href="/HTML_section/study.html">Major</a></li>   
+                <li class="item"><a class="link" href="/HTML_section/self_work">Intern & Portfolio</a></li>  
+                <li class="item"><a class="link" href="/HTML_section/dev-experience.html">Dev-Experience</a></li>  
+                <li class="item"><a class="link" href="/HTML_section/profile">Profile</a></li>
+            </ul>
+        </div>
 
         <div id="first_view">
             <div id="header_content">
@@ -31,62 +32,37 @@
 
                 <p class = "title_discription">  
                     "This is a test site for my portfolio."
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                 </p>
-
-                <p1 class = "tet">
-                    <br>w4</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>4w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    <br>w</br>
-                    </p1>
-
-            </div>
-        </div>
+        
+    </header>
+        <div><a harf="#"></a></div>
+        <section class ="section" id ="study"></section>
+        <section class ="section" id ="self_work"></section>
+        <section class ="section" id ="dev-experience"></section>
+        <section class ="section" id ="profile"></section>
 
 
+
+        <script>
+            $(document).ready(function(){
+                $("#study").load("/HTML_section/study.html");
+                $("#self_work").load("/HTML_section/self_work.html");
+                $("#dev-experience").load("/HTML_section/dev-experience.html");
+                $("#profile").load("/HTML_section/profile.html");
+            });
+        </script>
     </body>
+
+
 </html>
-<!-- appear menu -->
+
+
+<!-- 
+
+-->

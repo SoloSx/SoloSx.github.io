@@ -1,9 +1,12 @@
-header {
-  position: -webkit-sticky; /* For  Safari */
+.menu_items,
+#study,
+#self_work ,
+#dev-experience,
+#profile
+ {
   position: sticky;
   top: 0;
-  padding: 0px 10px; 
-  z-index: 100; 
+  z-index: 100; /* This makes sure the sticky menu is above all other elements */
 }
 
 .menu_items ul.select_titles {
@@ -22,3 +25,4 @@ header {
   color: white;
   text-decoration: none;
 }
+
