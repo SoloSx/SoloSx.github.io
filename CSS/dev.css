@@ -1,0 +1,133 @@
+.skills {
+    width: auto ;
+    margin: 30px 60px;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    display: flex;
+    justify-content: space-between;
+}
+
+.language {
+    width: 1100px;
+    margin: 60px auto ;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.tools {
+    width: 400px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+ 
+.language li {
+    margin: 16px 0;
+    padding: 15px;
+    display: block;
+}
+
+.horizon_bar {
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.23);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: all 0.3s cubic-bezier(cubic-bezier(0.25, 0.46, 0.45, 0.94))
+}
+
+.horizon_bar:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.horizon_bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(0,110,0,1)0%, rgba(0,250,155,1)100%);
+}
+
+.language_item {
+    font-size: 22px;
+}
+
+.tool_item {
+    font-size: 27px;
+}
+
+
+
+/*以下各言語設定*/
+.C_lang {
+    width: 40%;
+    animation: C_lang 5s;
+}
+@keyframes C_lang {
+    0%{
+        width: 5%;
+    }
+}
+
+.C_plus {
+    width: 20%;
+    animation: C_plus 5s;
+}
+@keyframes C_plus {
+    0%{
+        width: 5%;
+    }
+}
+
+.Ruby {
+    width: 20%;
+    animation: Ruby 5s;
+}
+@keyframes Ruby {
+    0%{
+        width: 5%;
+    }
+}
+
+.Java {
+    width: 30%;
+    animation: Java 5s;
+}
+@keyframes Java {
+    0%{
+        width: 5%;
+    }
+}
+
+.R_lang {
+    width: 20%;
+    animation: R_lang 5s;
+}
+@keyframes R_lang {
+    0%{
+        width: 5%;
+    }
+}
+
+.Python {
+    width: 90%;
+    animation: Python 5s;
+}
+@keyframes Python {
+    0%{
+        width:  5%;   
+    }
+}
+
+.HTML_CSS {
+    width: 50%;
+    animation: HTML_CSS 5s;
+}
+@keyframes HTML_CSS {
+    0%{
+        width: 5%;
+    }
+}
