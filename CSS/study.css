@@ -1,0 +1,33 @@
+.major {
+    width: auto ;
+    margin: 30px 60px;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    display: flex;
+    flex-direction: column; 
+}
+
+.interst, .learn {
+    width: auto ;
+    margin: 30px 60px;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    display: block;
+}
+
+.description-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.area-one, .area-two, .area-three, .area-four {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    flex: 1;
+    margin: 20px;  
+}
+
+h4 {
+    text-align: center;  
+}
