@@ -1,11 +1,17 @@
 header {
   position: sticky;
   top: 0;
+  border-bottom: 1.5px solid white;
+  background: #323231; 
+}
+
+.select_items {
+  padding: 20px; 
 }
 
 .menu_items ul.select_titles {
   list-style: none;
-  padding: 0;
+  padding: 18px 0px 10px 0px;
   display: flex;
   justify-content: flex-end;
 }
@@ -20,10 +26,3 @@ header {
   text-decoration: none;
 }
 
-
-
-
-
-
-
-/* layout change dot add pattern　*/

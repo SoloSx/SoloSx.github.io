@@ -1,18 +1,29 @@
 .profile {
-    width: auto ;
+    width: auto;
     margin: 30px 60px;
     color: #fff;
     padding: 20px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3.6fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 20px;
     font-size: 22px;
 }
 
-.personal-bio {
-    margin-left:60px;
+.personal-info {
+    grid-area: 1 / 1;
+    white-space: nowrap;
 }
 
+.intro {
+    grid-area: 1 / 2; 
+}
 
-.personal-info {
-    white-space: nowrap;
+.info-links {
+    grid-area: 2 / 1; 
+}
+
+.personality {
+    grid-area: 2 / 2; 
 }
