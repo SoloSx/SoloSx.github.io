@@ -3,7 +3,7 @@ body {
   }
 
 #first_view { 
-  color: white;;
+  color: white;
 }
 
 #title_content {
@@ -23,8 +23,11 @@ p.title {
   margin-bottom: 50px; 
 }
 
+
+
 .section_title { 
-  color: white;;
+  color: white;
+  margin-left: 20px;
 }
 
 .social-links {
