@@ -1,2 +1,2 @@
-# Solosx.github.io
+# SoloSx.github.io
 introduce my-self
